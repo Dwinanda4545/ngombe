@@ -76,11 +76,12 @@
 
             <nav id="navbar" class="navbar order-last order-lg-0 ms-auto">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Products</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a class="active" href="contact.html">Contact Us</a></li>
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="product.php">Products</a></li>
+                  <li><a href="features.php">Features</a></li>
+                  <li><a href="about.php">About</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
+                  <li><a class="active" href="login.php">Login</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -92,16 +93,47 @@
         <!-- ======= Breadcrumbs ======= -->
         <div class="breadcrumbs" style="background-color: #4B898F;">
             <div class="container" style="padding-top:50px; padding-bottom:50px">
-                <h2><b>Contact Us</b></h2>
-                <p>We provide our contact for you to ask for help or to get more information about Ngombe.
-                    Happy to answer! Contact us via the
-                    following contact.
+                <h2><b>Sign Up</b></h2>
+                <p>Please regist new account to buy our product
                 </p>
             </div>
         </div><!-- End Breadcrumbs -->
 
-        <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
+          <div data-aos="fade-up">
+            <div class="col-lg-12 mt-5 mt-lg-0" style="align-items: center;">
+                <form action="assets/vendor/phpemailform/proses_regist.php" method="POST" role="form" style="width: 30%; margin: 0 35%;">
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="daftarname" placeholder="Your Fullname" required></input>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="daftaremail" placeholder="Your Email" required></input>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="password" class="form-control" name="daftarpass" placeholder="Your Password" required></input>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="daftarnotelp" placeholder="Your Phone Number" required></input>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="daftarrole" placeholder="Code Referal" required></input>
+                    </div>
+                    <br>
+
+                    <h5>Have an account already? <a style="color:#4b898f" href="login.php">Sign in</a></h5>
+
+                    <br>
+                    <div class="text-center"><button class="btn btn-primary btn-lg" type="submit" style="background: #23716f;">Create</button></div>
+                </form>
+
+
+            </div>
+          </div>
+
+          <div class="container" data-aos="fade-up">
+        </section><!-- End Contact Section -->
+        <!-- ======= Contact Section ======= -->
+        <!-- <section id="contact" class="contact">
             <div data-aos="fade-up">
                 <iframe style="border:0; margin-top:-1rem; width: 100%; height: 350px;"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.052998073008!2d106.61636781402811!3d-6.256748995471196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fc7ade82481b%3A0xefffacbc6a27d65d!2sSkystar%20Ventures%20Coworking%20Space!5e0!3m2!1sen!2sid!4v1619243815029!5m2!1sen!2sid"
@@ -167,7 +199,7 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End Contact Section -->
+        </section><! End Contact Section -->
 
     </main><!-- End #main -->
 

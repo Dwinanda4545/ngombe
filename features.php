@@ -44,11 +44,12 @@
 
             <nav id="navbar" class="navbar order-last order-lg-0 ms-auto">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Products</a></li>
-                    <li><a class="active" href="product.html">Features</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="product.php">Products</a></li>
+                  <li><a class="active" href="features.php">Features</a></li>
+                  <li><a href="about.php">About</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
+                  <li><a href="login.php">Login</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
