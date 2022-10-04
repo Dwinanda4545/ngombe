@@ -137,6 +137,7 @@ $row = $result
         </div><!-- End Breadcrumbs -->
 
         <div class="pilproduk" style="margin:5rem 10rem;" id="">
+          <div data-aos="fade-up">
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
@@ -192,6 +193,7 @@ $row = $result
                         ?>
                     </tbody>
                 </table>
+            </div>
             </div>
             <!-- </form> -->
         </div>

@@ -136,7 +136,7 @@
                         <p class="lead" style=" text-align: justify;">How does Ngombe work? Throughout each day it
                             Ngombe application calculates and adjusts a personalized hydration plan and goal based on
                             your body and activity level. </p>
-                        <div class="d-grid gap-2 d-flex justify-content-start">
+                        <!-- <div class="d-grid gap-2 d-flex justify-content-start">
                             <img src="assets/img/qr100.jpg" style="width:180px;" class="rounded float-start qrcode">
                             <div class="divbtninstall" style=" padding-left:1rem;padding-bottom:3rem;">
                                 <h3>Buy Now On <a href="https://www.tokopedia.com/ngombe/">Tokopedia</a></h3>
@@ -144,7 +144,7 @@
                                     onclick="location.href='https://www.figma.com/proto/04BThAbP3UKP996GXKP3cK/leadership-ngombee?node-id=2%3A264&scaling=scale-down'">INSTALL
                                     NOW</button>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
